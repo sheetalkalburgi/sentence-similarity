@@ -16,7 +16,7 @@ The base dataset is the Health Canada Regulations data and the corresponding FDA
 Finding the regulations which are similar to each other and determining their similarity score is executed in two directions i.e., FDA regulations are matched to Health Canada regulations and vice-versa. This is done to ensure every regulation in the dataset have a corresponding match. Additionally, this two-way match helps to find correlation between the prediction of both results thereby creating a layer of sanity check to investigate the matches in both directions.
 
 ## Optimization for Precision
-Upon performing the evaluation and analyzing the predictions with the client, it was discovered that although the equivalent regulations between FDA and Health Canada were established and the models were predicting accurately, they were not a true match. The main concern were the regulations which are not matched as per the ground truth, but the model is predicting the said regulations to be a match. In other words, false positives being generated form the model is of focus, and it is crucial to minimize the number of false positives being generated. Therefore, the accuracy is no longer the optimizing metric, but precision is. 
+Please find the details [here].
 
 
 Analysis on my [Medium]!
